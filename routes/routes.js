@@ -12,7 +12,7 @@ transactionRouter.post('/', transactionService.create);
 
 transactionRouter.delete('/:id', transactionService.remove);
 
-transactionRouter.put('/:id',transactionService.update);
+transactionRouter.put('/up/:id',transactionService.update);
 
 
 module.exports = transactionRouter;
